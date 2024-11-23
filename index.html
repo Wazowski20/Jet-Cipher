@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jet Cipher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jet Cipher</h1>
+        
+        <!-- Dark Mode Switch -->
+        <div class="switch-container">
+            <!-- Sun and Moon Icons for Dark Mode Toggle -->
+            <span class="light-mode-icon"><i class="fas fa-moon"></i></span>
+            <label class="switch">
+                <input type="checkbox" id="dark-mode-switch">
+                <span class="slider round"></span>
+            </label>
+            <span class="dark-mode-icon"><i class="fas fa-sun"></i></span>
+        </div>
+
+        <!-- Input and Button Section -->
+        <div class="input-area">
+            <textarea id="input-text" placeholder="Enter text to encrypt or decrypt"></textarea>
+        </div>
+        
+        <div class="buttons">
+            <button id="encrypt-btn">Encrypt</button>
+            <button id="decrypt-btn">Decrypt</button>
+            <button id="voice-btn">Use Voice Input</button>
+        </div>
+        
+        <!-- Output Section -->
+        <div class="output-area">
+            <textarea id="output-text" placeholder="Output will appear here" readonly></textarea>
+        </div>
+        
+        <!-- Information Card -->
+        <div class="info-card">
+            <h2>About Jet Cipher</h2>
+            <p>The alphabet corresponds to names of military fighter jets and bomber jets from different countries.
+            The numbers correspond to names of military helicopters and combat drones from different countries.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
